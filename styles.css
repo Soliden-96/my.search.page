@@ -1,9 +1,7 @@
-#grid-container{
-    display:grid;
-    grid-template-columns:auto auto auto;
-    grid-column-gap:5px;
+#form-container{
+    margin-top:40px;
+    margin-left:45px;
 }
 
-#advanced_form{
-    margin-top:100px;
-}
+#grid-container{
+    grid-template-columns: 180px 570px 380px;
