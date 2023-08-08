@@ -4,4 +4,6 @@
 }
 
 #grid-container{
+    display:grid;
     grid-template-columns: 180px 570px 380px;
+}
