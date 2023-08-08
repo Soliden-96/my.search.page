@@ -2,29 +2,45 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link href="styles.css" rel="stylesheet">
         <title>Advanced Search</title>
     </head>
     <body>
-        <div>
-            <form action="https://www.google.com/search">
-                <div>
-                    <input type="text" name="as_q">all these words
+        <div id="grid-container">
+            <div class="grid-item">
+                <div>all these words</div>
+                <div>this exact word or phrase</div>
+                <div>any of these words</div>
+                <div>none of these words</div>
+            </div>
+            <div class="grid-item">
+                <div id="advanced form">
+                    <form action="https://www.google.com/search">
+                        <div>
+                            <input type="text" name="as_q">all these words
+                        </div>
+                        <div>
+                            <input type="text" name="as_epq">this exact word or phrase
+                        </div>
+                        <div>
+                            <input type="text" name="as_oq">any of these words
+                        </div>
+                        <div>
+                            <input type="text" name="as_eq">none of these words
+                        </div>
+                        <div>
+                            <button type="submit">Advanced Search</button>
+                        </div>
+                </form>
                 </div>
+            </div>
+            <div class="grid-item">
                 <div>
-                    <input type="text" name="as_epq">this exact word or phrase
+                    <a href="/my.search.page/">Search</a>
+                    <a href="/my.search.page/images.html">Images Search</a>
                 </div>
-                <div>
-                    <input type="text" name="as_oq">any of these words
-                </div>
-                <div>
-                    <input type="text" name="as_eq">none of these words
-                </div>
-                <button type="submit">Advanced Search</button>
-            </form>
+            </div>
         </div>
-        <div>
-            <a href="/my.search.page/">Search</a>
-            <a href="/my.search.page/images.html">Images Search</a>
-        </div>
+        
     </body>
 </html>
