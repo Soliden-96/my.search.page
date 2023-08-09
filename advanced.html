@@ -6,43 +6,63 @@
         <title>Advanced Search</title>
     </head>
     <body>
-        <div id="form-container">
+    <div>
+        <div class="links">
+            <a href="/my.search.page/">Search</a>
+            <a class="right-link" href="/my.search.page/images.html">Images Search</a>
+        </div>
+        <div id="advanced_logo">
+            <span id="M">M</span>
+            <span id="Y">y</span>
+            <span id="S">S</span>
+            <span id="E">e</span>
+            <span id="A">a</span>
+            <span id="R">r</span>
+            <span id="C">c</span>
+            <span id="H">h</span>
+        </div>
+
+    </div>
+        <div id="title_advanced">Advanced Search</div>
+
+        <div id="form-container-advanced">
             <form action="https://www.google.com/search">
-                <div id="grid-container">
-                    <div>Find Pages with..</div>
-                    <div></div>
-                    <div>To do this in the search box</div>
-                    <div>all these words:</div>
-                    <div>
+                <div id="grid-container-advanced">
+                    <div class="top-row">Find Pages with..</div>
+                    <div class="top-row"></div>
+                    <div class="top-row">To do this in the search box</div>
+
+                    <div class="left-side">all these words:</div>
+                    <div class="inputs">
                         <input type="text" name="as_q">
                     </div>
-                    <div>Type the important words: tri-colour rat terrier</div>
-                    <div>this exact word or phrase:</div>
-                    <div>
+                    <div class="right-side">Type the important words: tri-colour rat terrier</div>
+
+                    <div class="left-side">this exact word or phrase:</div>
+                    <div class="inputs">
                         <input type="text" name="as_epq">
                     </div>
-                    <div>Put exact words in quotes: "rat terrier>"</div>
-                    <div>any of these words:</div>
-                    <div>
+                    <div class="right-side">Put exact words in quotes: "rat terrier"</div>
+
+                    <div class="left-side">any of these words:</div>
+                    <div class="inputs">
                         <input type="text" name="as_oq">
                     </div>
-                    <div>Type OR in between the words you want: miniature OR standard</div>
-                    <div>none of these words:</div>
-                    <div>
+                    <div class="right-side">Type OR in between the words you want: miniature OR standard</div>
+
+                    <div class="left-side">none of these words:</div>
+                    <div class="inputs">
                         <input type="text" name="as_eq">
                     </div>
-                    <div>Put a minus sign just before the words you don't want</div>
+                    <div class="right-side">Put a minus sign just before the words that you don't want:   -rodent, -"Jack Russel"</div>
+
                     <div></div>
-                    <div>
+                    <div id="advanced_button">
                         <button type="submit">Advanced Search</button>
                     </div>
+                    <div></div>
                 </div>
             </form>
         </div>
-               <div>
-                    <a href="/my.search.page/">Search</a>
-                    <a href="/my.search.page/images.html">Images Search</a>
-                </div>
-        
     </body>
 </html>

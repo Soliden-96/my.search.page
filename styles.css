@@ -1,9 +1,136 @@
-#form-container{
+#M{ color:royalblue; }
+#Y{ color:red; }
+#S{ color:orange; margin-left:1em; }
+#E{ color:royalblue; }
+#A{ color:green;}
+#R{ color:red; }
+#C{ color:orange; }
+#H{ color:royalblue; }
+
+.links{
+    float:right;
+    margin-top:30px;
+    margin-right:40px;
+}
+
+.right-link{
+    margin-left:10px;
+}
+
+.center-div{
+    position:absolute;
+    top:35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+    width:570px;
+}
+
+#index_logo{
+    font-size:75px;
+    font family:Georgia,serif;
+}
+
+.center-form-div{
+    margin-top:30px;
+}
+
+.center-buttons{
+    margin-top:35px;
+    height:100%;
+}
+
+.center-buttons button{
+    height:30px;
+    width:25%;
+    border:1px solid #719ECE;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.center-text-box{
+    height:1.90em;
+}
+
+.center-text-box input{
+    width:95%;
+    height:100%;
+    border:1px solid #719ECE;
+    border-radius:20px;
+}
+
+.center-text-box input:focus{
+    outline:none !important;
+    border:1px solid #719ECE;
+    box-shadow:1px 1px 1px 1px #719ECE;
+
+}
+
+#advanced_logo{
+    font-size:30px;
+    font-family:Georgia,serif;
+    margin-bottom:50px;
+    margin-left:27px;
+}
+
+#title_advanced{
+    color:red;
+    font-family:Verdana,sans-serif;
+    font-size:20px;
+    margin-left:45px;
+    margin-bottom:10px;
+    font-weight:500;
+}
+
+#form-container-advanced{
     margin-top:40px;
     margin-left:45px;
 }
 
-#grid-container{
+#grid-container-advanced{
     display:grid;
     grid-template-columns: 180px 570px 380px;
+    grid-row-gap:15px;
+    font-family:Verdana,sans-serif;
+}
+
+.inputs{
+    text-align:center;
+    padding-top:1px;
+    padding-bottom:1px;
+    padding-left:1px;
+    padding-right:1px;
+}
+
+#advanced_button{
+    margin-top:5px;
+    text-align:center;
+    height:30px;
+}
+
+#advanced_button button{
+    height:100%;
+    background-color:royalblue;
+    font-weight:bold;
+    color:white;
+}
+
+.right-side{
+    padding-top:1px;
+    padding-left:5px;
+    font-size:11px;
+}
+
+.left-side{
+    font-size:12px;
+}
+
+.inputs  input{
+    width:95%;
+    height:100%;
+}
+
+.top-row{
+    font-weight:500;
+    margin-bottom:5px;
 }
